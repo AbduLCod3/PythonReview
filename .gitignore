@@ -1,0 +1,7 @@
+# Ignore all files with the specified name.
+# Scope is all repo folders.
+Python Tutorial.code-workspace
+
+# Ignore all files with the specified extension.
+# Scope is all repo folders.
+*.code-workspace
