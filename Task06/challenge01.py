@@ -1,4 +1,3 @@
-
 import sys
 import random
 from enum import Enum
@@ -16,9 +15,7 @@ def guess_number(name='PlayerOne'):
 
 
         # Get User's Guess
-        user_guess = input(
-            f'\nHi {name}, Guess Which Number I am thinking: 1, 2, or 3:\n'
-        )
+        user_guess = input(f'\nHi {name}, Guess Which Number I am thinking: 1, 2, or 3:\n')
         # Check if user input is valid (is it one (1, 2, or 3))
         # If user input is not correct
         if user_guess not in ['1', '2', '3']:
