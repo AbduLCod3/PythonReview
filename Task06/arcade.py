@@ -1,5 +1,5 @@
 import sys
-import Guess_my_number
+import guessMyNumber
 import RPSv6
 
 def play_arcade(name='PlayerOne'):
@@ -29,7 +29,7 @@ def play_arcade(name='PlayerOne'):
         
         elif user_choice == '2':
             print(f'\nHi {name}, You Chose to Play the Game: Guess My Number.')
-            guess_number_game = Guess_my_number.guess_number(name)
+            guess_number_game = guessMyNumber.guess_number(name)
             guess_number_game()
         else:
             print("")
@@ -57,8 +57,9 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     print(f'\n🕹🕹🕹   Hi {args.name}, Welcome to the Arcade! 🕹🕹🕹:\n')
-    play_game = play_arcade(args.name)
-    play_game()
+    
+    play_arcade(args.name)
+   
 
 
 
