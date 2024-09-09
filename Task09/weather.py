@@ -22,4 +22,4 @@ def get_current_wearther():
     print(f'{weather_data["weather"][0]["description"]} and Feels Like {weather_data["main"]["temp"]}\n')
 
 if __name__ == "__main__":
-    get_current_wearther()
+    get_current_wearther() 

@@ -1,0 +1,1 @@
+I deleted all names in the context file.

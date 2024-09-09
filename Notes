@@ -15,6 +15,12 @@
 ## to create a virtual enviro
 ### py -m venv .venv
 
+## activate venv
+### source .venv/Scripts/activate
+
+## deactivate env
+### deactivate
+
 
 
 ## to check dependencies a package named requests
