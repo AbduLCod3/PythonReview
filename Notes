@@ -1,0 +1,27 @@
+## Check packages installed 
+### py -m pip list
+
+## Install a specific version of the package called requests
+### py -m pip install requests==2.30.0
+
+## Update a package called requests
+### py -m pip install -U requests
+
+## Uninstall a pacgage called requests 
+### py -m pip uninstall requests 
+
+
+# Virtual Environment = venv
+## to create a virtual enviro
+### py -m venv .venv
+
+
+
+## to check dependencies a package named requests
+### py -m pip show requests
+
+# to find useful python packages
+## pypi.org
+
+## create a file with a list of the requirements of this project
+### py -m pip freeze > filename.txt
